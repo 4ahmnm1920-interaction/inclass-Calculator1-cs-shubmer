@@ -1,9 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Exercise : MonoBehaviour
 {
+    public int NumeroUno;
+    public int NumeroDos;
+    public int min1;
+    public int min2;
 
     // Start is called before the first frame update
     void Start()
@@ -35,9 +40,10 @@ public class Exercise : MonoBehaviour
     {
         return (word1 + " " + word2);
     }
+
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(Random.Range(NumeroUno, NumeroDos) + Random.Range(min1,min2));
     }
 }
