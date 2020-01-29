@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7680999B-F4D9-7AAF-041C-540F8C893967}</ProjectGuid>
+    <ProjectGuid>{40744FC4-478D-CE8F-A014-F76C03F8EDC7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,23 +65,24 @@
   <ItemGroup>
     <Compile Include="Assets\MyGame\Scripts\Calculator.cs" />
     <Compile Include="Assets\MyGame\Scripts\Exercise.cs" />
+    <Compile Include="Assets\MyGame\Scripts\ExerciseIfStatement.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Repos/inclass-Calculator1-cs-verenazmo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Repos/inclass-Calculator1-cs-shubmer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Repos/inclass-Calculator1-cs-verenazmo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Repos/inclass-Calculator1-cs-shubmer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Repos/inclass-Calculator1-cs-verenazmo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Repos/inclass-Calculator1-cs-shubmer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Repos/inclass-Calculator1-cs-verenazmo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Repos/inclass-Calculator1-cs-shubmer/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Repos/inclass-Calculator1-cs-verenazmo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Repos/inclass-Calculator1-cs-shubmer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Repos/inclass-Calculator1-cs-verenazmo/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Repos/inclass-Calculator1-cs-shubmer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/2019.1.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -270,13 +271,13 @@
       <HintPath>/Applications/2019.1.14f1/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Repos/inclass-Calculator1-cs-verenazmo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Repos/inclass-Calculator1-cs-shubmer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Repos/inclass-Calculator1-cs-verenazmo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Repos/inclass-Calculator1-cs-shubmer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Repos/inclass-Calculator1-cs-verenazmo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Repos/inclass-Calculator1-cs-shubmer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/2019.1.14f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
